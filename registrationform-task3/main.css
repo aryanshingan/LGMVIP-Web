@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+body,*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+body{
+    background-color: #85d629;
+}
+
+h1{
+    text-align: center;
+    background-color: #F8C4B4;
+    color: #E0144C;
+    padding: 10px;
+}
+
+.labels, input{
+    border: none;
+    border-bottom: 2px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.inputs{
+    padding: 8px;
+    width: 500px;
+}
+section{
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 400px;
+}
+form div{ 
+    margin-bottom: 15px;
+}
+.input_labels, .radio_labels{
+    font-size: 15px;
+    font-weight: normal;
+    margin-right: 15px;
+
+}
+.enroll{
+    padding: 8px 10px;
+    border: none;
+    box-shadow: 1px 2px;
+    background-color: #cc690c;
+    color: #06283D;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.display{
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.data {
+    border: 1px solid black;
+    width: 250px;
+    display: flex;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #473d9c;
+  }
+  
+.data_body {
+    display: grid;
+    place-items: left;
+    text-transform: capitalize;
+    padding: 20px;
+  }
+  
+h4{
+    text-align: left;
+}
+
+.email {
+    text-transform: lowercase;
+}
+  
+
+.image img {
+    padding: 20px;
+    width: 160px;
+    height: 165px;
+    
+    
+}  
