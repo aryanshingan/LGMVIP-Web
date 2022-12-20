@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <section>
+    
+        <div class="form">
+            <form>
+                <div class="labels">
+                    <label for="name" class="input_labels">Name</label>
+                    <input type="text" name="name" id="name" class="inputs" placeholder="Your name">
+                </div>
+                <div class="labels">
+                    <label for="email" class="input_labels">Email</label>
+                    <input type="email" name="email" id="email" class="inputs" placeholder="Your email">
+                </div>
+                <div class="labels">
+                    <label for="contactno" class="input_labels">Contact No</label>
+                    <input type="contactno" name="contactno" id="contactno" class="inputs" placeholder="Your Contact No">
+                </div>
+                <div>
+                    <label class="radio_labels">Gender</label>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <label for="image" class="input_labels">Your Photo</label>
+                    <input type="file" name="image" class="inputs" id="image" required autocomplete="off">
+                </div>
+                <div>
+                    <input type="submit" value="Submit" class="enroll">
+                </div>
+            </form>
+        </div>
+        
+        <div class="display">
+            <h2>Applicants</h2>
+            <div class="dataset">
+
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>    
+    
+</body>
+</html>
